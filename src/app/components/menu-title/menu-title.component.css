@@ -1,0 +1,15 @@
+.container > hr{
+
+    margin: 1rem 0;
+
+}
+
+.container > h1 {
+
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 5.5rem;
+    display: flex;
+    justify-content: center;
+    
+}
