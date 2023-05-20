@@ -4,4 +4,15 @@
     box-sizing: border-box;
     background-color: #111;
     font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+a {
+
+    text-decoration: none;
+
+}
+
+li {
+    list-style: none;
 }
