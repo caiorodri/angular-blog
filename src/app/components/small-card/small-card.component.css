@@ -1,0 +1,39 @@
+.container-small-card {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.container-small-card img {
+
+    max-width: 40%;
+    margin-right: 1rem;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content > span {
+
+    color: #505050;
+    margin: .5rem 0;
+
+}
+
+.content > h1 {
+
+    font-size: 1.4rem;
+    margin-right: 1rem;
+
+}
+
+hr {
+    margin-top: 2rem;
+    border-color: #000;
+}
