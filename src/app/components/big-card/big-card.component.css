@@ -1,0 +1,40 @@
+.main-container{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-container img {
+
+    min-width: 100%;
+    max-width: 100%;
+
+}
+
+.content {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.content > span {
+
+    color: #505050;
+    margin: 1rem 0;
+
+}
+
+.content > h1{
+
+    font-size: 1.7rem;
+    margin: 0 0 1rem 0;
+
+}
+
+.content p {
+
+    color: #999999;
+
+}
