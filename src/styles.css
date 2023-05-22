@@ -16,3 +16,13 @@ a {
 li {
     list-style: none;
 }
+
+.content p {
+
+    color: #999999;
+
+}
+
+hr {
+    border-color: #000;
+}

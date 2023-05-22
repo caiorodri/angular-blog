@@ -1,10 +1,10 @@
 <div class="main-container">
-    <a href="#">
+    <a [routerLink]="['detalhes', Id]">
         <img src="{{ cardImage }}" alt="">
     </a>
     <div class="content">
-        <span>{{ cardAuthor }}</span>
-        <h1><a href="#">{{ cardTitle }}</a></h1>
+        <span>{{ cardDate }}</span>
+        <h1><a [routerLink]="['detalhes', Id]">{{ cardTitle }}</a></h1>
         <p>{{ cardDescription }}</p>
     </div>
 </div>

@@ -1,0 +1,34 @@
+.container-home {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0 0 0;
+}
+
+.container-cards {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    width: 80%;
+    height: 40rem;
+    margin: 0 auto;
+
+}
+
+.container-big-card {
+
+    margin: 2rem 1rem 2rem 0;
+    width: 45%;
+
+}
+
+.container-small-card {
+
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 2rem 0 2rem 2rem;
+    width: 55%;
+
+
+}

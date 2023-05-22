@@ -8,12 +8,14 @@ import { Component, Input } from '@angular/core';
 export class BigCardComponent {
 
   @Input()
+  Id: string = "0"
+  @Input()
   cardImage: string = "https://igp.rs.gov.br/themes/modelo-noticias/images/outros/GD_imgSemImagem.png";
   @Input()
-  cardAuthor: string = "Autor Desconhecido";
+  cardDate: string = "Data Desconhecida";
   @Input()
-  cardTitle: string = "Titulo"
+  cardTitle: string = "Sem titulo"
   @Input()
-  cardDescription: string = "Descrição"
+  cardDescription: string = "Sem descrição"
 
 }

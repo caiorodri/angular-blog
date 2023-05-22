@@ -9,6 +9,7 @@
 
     min-width: 100%;
     max-width: 100%;
+    border-radius: 10px;
 
 }
 
@@ -32,9 +33,9 @@
     margin: 0 0 1rem 0;
 
 }
+.content > h1:hover{
 
-.content p {
-
-    color: #999999;
+    text-shadow: 1px 1px 1px #808080;
 
 }
+
