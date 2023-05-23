@@ -7,10 +7,8 @@
 
 .container-small-card img {
 
-    max-width: 100%;
-    min-width: 100%;
+    width: 100%;
     border-radius: 10px;
-
 
 }
 
@@ -33,7 +31,7 @@
 .content > span {
 
     color: #505050;
-    margin: -1rem 0 .5rem 0;
+    margin: -.5rem 0 .5rem 0;
 
 }
 

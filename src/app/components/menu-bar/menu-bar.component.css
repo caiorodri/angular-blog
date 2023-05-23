@@ -21,6 +21,12 @@
 
 }
 
+.container-menu-bar > a > h1{
+
+    font-size: 2rem;
+
+}
+
 .container-menu-bar > div {
 
     display: flex;
@@ -32,17 +38,14 @@
 
     margin: 0 auto;
     display: flex;
-    gap: 1.5rem;
+    gap: 2.5rem;
 
 }
 
-.container-menu-bar > div > ul > li{
 
-    font-size: 1.1rem;
+.container-menu-bar > div > ul > li > a > img{
 
-}
-.container-menu-bar > div > ul > li:hover{
-
-    text-shadow: 2px 2px 7px #808080;
+    max-width: 2rem;
 
 }
+

@@ -5,7 +5,7 @@ import { dataNews } from '../../data/dataNews';
 @Component({
   selector: 'app-detail',
   templateUrl: './detail.component.html',
-  styleUrls: ['./detail.component.css']
+  styleUrls: ['./detail.component.css', './detail.responsive.component.css']
 })
 export class DetailComponent implements OnInit{
 

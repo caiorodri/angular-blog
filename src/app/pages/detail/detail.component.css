@@ -1,6 +1,6 @@
 .content {
 
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,12 +10,11 @@
 
 .content-image{
 
-    width: 40vw;
+    width: 60vw;
     display: flex;
     align-content: center;
     border: 3px solid #cfffa8;
     border-radius: 5px;
-    margin-top: -4rem;
     
 }
 
@@ -28,6 +27,7 @@
 
 .content h1{
 
+    font-size: 2.5rem;
     margin: 2rem 0;
 }
 
@@ -42,7 +42,7 @@
 
 .content p {
 
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     word-wrap: break-word;
 
 }
@@ -51,7 +51,7 @@
 
     display: flex;
     justify-content: flex-end;
-    width: 40vw;
+    width: 60vw;
 
 }
 

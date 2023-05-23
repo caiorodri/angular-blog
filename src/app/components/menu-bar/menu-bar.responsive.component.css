@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px){
+    .main-container {
+
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 0 auto;
+
+    }
+
+    .container-menu-bar > div > ul > li > a > img {
+
+        max-width: 1.5rem;
+
+    }
+
+    .container-menu-bar > a > h1{
+
+        font-size: 1.5rem;
+
+    }
+
+    .container-menu-bar > div > ul{
+        gap: 1rem;
+
+    }
+}

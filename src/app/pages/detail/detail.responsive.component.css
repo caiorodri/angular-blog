@@ -1,0 +1,68 @@
+@media screen and (max-width: 1800px){
+
+    
+    .content-image{
+
+        width: 50vw;
+
+        
+    }
+
+    .content-image img {
+
+        max-width: 100%;
+        min-width: 100%;
+
+    }
+
+    .content-date {
+
+        width: 50vw;
+    
+    }
+    
+    .content h1{
+
+        font-size: 1.5rem;
+
+    }
+
+    .content p {
+
+        font-size: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 600px){
+
+    .content-image{
+
+        width: 80vw;
+        margin-top: -8rem;
+
+        
+    }
+    .content-date {
+
+        width: 80vw;
+    
+    }    
+
+
+    .content h1{
+
+        font-size: 1.1rem;
+
+    }
+
+    .content p {
+
+        font-size: .8rem;
+        word-wrap: break-word;
+
+    }
+
+
+}
